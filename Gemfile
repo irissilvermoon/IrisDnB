@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'compass', '>=0.12.2'
+gem 'susy'
+
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
