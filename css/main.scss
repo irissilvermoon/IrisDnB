@@ -1,6 +1,5 @@
-@import "compass";
 @import "susy";
-
+@import "compass";
 
 $total_columns: 12;
 $column_width: 4em;
@@ -13,10 +12,13 @@ body, html {
 
 body {
   background-color: #303030;
-  color: #303030;
+  color:#cbcfd2;
+  font-family: helvetica, ariel, sans-serif;
 }
 
 #page_container {
   background: #13151a url("../images/IrisWeb.jpg") no-repeat;
   min-height: 100%;
 }
+
+

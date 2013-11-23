@@ -1,14 +1,14 @@
 /*
-Syntax error: File to import not found or unreadable: compass.
+Syntax error: File to import not found or unreadable: susy.
               Load path: /Users/karen/Desktop/Programs/iris_dnb/css
         on line 1 of main.scss
 
-1: @import "compass";
-2: @import "susy";
-3: 
-4: 
-5: $total_columns: 12;
-6: $column_width: 4em;
+1: @import "susy";
+2: @import "compass";
+3:
+4: $total_columns: 12;
+5: $column_width: 4em;
+6: $gutter_width: 1em;
 
 Backtrace:
 main.scss:1
@@ -37,17 +37,15 @@ main.scss:1
 /Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
 /Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `each'
 /Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:235:in `watch'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin.rb:107:in `method_missing'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/exec.rb:463:in `watch_or_update'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/exec.rb:326:in `process_result'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/exec.rb:41:in `parse'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/exec.rb:21:in `parse!'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/bin/sass:9:in `<top (required)>'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/bin/sass:23:in `load'
-/Users/karen/.rvm/gems/ruby-1.9.3-p194/bin/sass:23:in `<main>'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/Users/karen/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.12/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: /Users/karen/Desktop/Programs/iris_dnb/css\A         on line 1 of main.scss\A \A 1: @import \"compass\";\A 2: @import \"susy\";\A 3: \A 4: \A 5: $total_columns: 12;\A 6: $column_width: 4em;"; }
+  content: "Syntax error: File to import not found or unreadable: susy.\A               Load path: /Users/karen/Desktop/Programs/iris_dnb/css\A         on line 1 of main.scss\A \A 1: @import \"susy\";\A 2: @import \"compass\";\A 3: \A 4: $total_columns: 12;\A 5: $column_width: 4em;\A 6: $gutter_width: 1em;"; }
