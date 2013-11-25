@@ -24,6 +24,7 @@ $grid-padding: 1em; // and 1em padding on the grid container
   padding: 1em;
   max-width: 61em;
   background: #1f2123;
+
 }
 
 #image-container {
@@ -34,15 +35,20 @@ $grid-padding: 1em; // and 1em padding on the grid container
   width: 1000px;
 }
 
-h1 {
-  text-indent: 50px;
-  letter-spacing: 2px;
-  text-align: left;
-  font-weight: 100;
-  font-size: 50px;
+#social-image {
+  display: block;
+  float: right;
 }
 
 
+h1 {
+  @include container;
+  margin: 0em;
+  letter-spacing: 10px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 40px;
+}
 
 
 
