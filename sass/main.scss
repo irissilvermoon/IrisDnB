@@ -1,0 +1,49 @@
+@import "compass";
+@import "susy";
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  color: #cbcfd2;
+}
+
+// Setting up the Magic Grid
+$total-columns: 12; // 12 columns
+$column-width: 4em; // columns are 4em wide
+$gutter-width: 1em; // with 1em gutters
+$grid-padding: 1em; // and 1em padding on the grid container
+
+.magic-container {
+  @include container;
+
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 61em;
+  background: #1f2123;
+}
+
+#image-container {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+h1 {
+  text-indent: 50px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+
+
+
+
+
