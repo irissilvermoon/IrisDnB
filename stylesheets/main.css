@@ -39,20 +39,20 @@ body {
   width: 1000px;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 .social-container {
-  width: 18.36735%;
+  width: 16.66667%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
-  position: relative;
+  margin-top: 7em;
   float: right;
-  padding: 5px;
 }
-/* line 42, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .social-container #social-image {
-  display: grid;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* line 48, ../sass/main.scss */

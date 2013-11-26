@@ -30,17 +30,17 @@ $grid-padding: 1em; // and 1em padding on the grid container
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
+
 }
 
 .social-container{
-  @include span-columns(2 omega, 10);
-  position: relative;
+  @include span-columns(1 omega, 5);
+  margin-top: 7em;
   float: right;
-  padding: 5px;
-
 
   #social-image {
-    display: grid;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 
