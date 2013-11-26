@@ -19,25 +19,29 @@ $grid-padding: 1em; // and 1em padding on the grid container
 
 .magic-container {
   @include container;
-
   margin: 1em auto;
   padding: 1em;
   max-width: 61em;
-  background: #1f2123;
-
+  background: #161816;
 }
 
 #image-container {
   display: block;
-  float: none;
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
 }
 
-#social-image {
-  display: block;
+.social-container{
+  @include span-columns(2 omega, 10);
+  position: relative;
   float: right;
+  padding: 5px;
+
+
+  #social-image {
+    display: grid;
+  }
 }
 
 
