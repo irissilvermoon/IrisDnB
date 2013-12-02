@@ -21,8 +21,9 @@ body {
   margin-right: auto;
   margin: 1em auto;
   padding: 1em;
+  padding-left: 3em;
   max-width: 61em;
-  background: #161816;
+  background: #121112;
 }
 /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .magic-container:after {
@@ -31,7 +32,7 @@ body {
   clear: both;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 #image-container {
   display: block;
   margin-left: auto;
@@ -39,7 +40,7 @@ body {
   width: 1000px;
 }
 
-/* line 36, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 .social-container {
   width: 16.66667%;
   float: right;
@@ -49,30 +50,41 @@ body {
   margin-top: 7em;
   float: right;
 }
-/* line 41, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .social-container #social-image {
   margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 /* line 48, ../sass/main.scss */
+.music-link {
+  margin: 1em;
+}
+
+/* line 53, ../sass/main.scss */
 h1 {
-  *zoom: 1;
-  max-width: 59em;
-  _width: 59em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
   margin: 0em;
   letter-spacing: 10px;
   text-align: left;
   font-weight: 100;
   font-size: 40px;
 }
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-h1:after {
-  content: "";
-  display: table;
-  clear: both;
+
+/* line 61, ../sass/main.scss */
+h3 {
+  margin: 15px 0px 0px;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+/* line 70, ../sass/main.scss */
+p {
+  margin: 20px 0px 15px;
+  line-height: 1.5em;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1em;
 }

@@ -21,8 +21,9 @@ $grid-padding: 1em; // and 1em padding on the grid container
   @include container;
   margin: 1em auto;
   padding: 1em;
+  padding-left: 3em;
   max-width: 61em;
-  background: #161816;
+  background: #121112;
 }
 
 #image-container {
@@ -40,18 +41,39 @@ $grid-padding: 1em; // and 1em padding on the grid container
 
   #social-image {
     margin-top: 1em;
-    margin-bottom: 1em;
+
   }
 }
 
+.music-link{
+  margin: 1em;
+
+}
 
 h1 {
-  @include container;
   margin: 0em;
   letter-spacing: 10px;
   text-align: left;
   font-weight: 100;
   font-size: 40px;
+}
+
+h3 {
+  margin: 15px 0px 0px;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: 100;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+p {
+  margin: 20px 0px 15px;
+  line-height: 1.5em;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1em;
 }
 
 
