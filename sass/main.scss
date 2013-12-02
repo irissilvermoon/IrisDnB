@@ -50,6 +50,22 @@ $grid-padding: 1em; // and 1em padding on the grid container
 
 }
 
+.content-bio {
+  display: none;
+}
+
+.content-sounds{
+  display: none;
+}
+
+.content-events{
+  display: none;
+}
+
+.content-links{
+  display: none;
+}
+
 h1 {
   margin: 0em;
   letter-spacing: 10px;
@@ -74,6 +90,21 @@ p {
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 1em;
+}
+
+li {
+  list-style: square inside;
+  margin: 15px 0px 15px 20px;
+}
+
+a {
+  color: #cbcfd2;
+  margin: 30px 0px 15px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 

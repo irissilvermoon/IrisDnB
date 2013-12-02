@@ -61,6 +61,26 @@ body {
 }
 
 /* line 53, ../sass/main.scss */
+.content-bio {
+  display: none;
+}
+
+/* line 57, ../sass/main.scss */
+.content-sounds {
+  display: none;
+}
+
+/* line 61, ../sass/main.scss */
+.content-events {
+  display: none;
+}
+
+/* line 65, ../sass/main.scss */
+.content-links {
+  display: none;
+}
+
+/* line 69, ../sass/main.scss */
 h1 {
   margin: 0em;
   letter-spacing: 10px;
@@ -69,7 +89,7 @@ h1 {
   font-size: 40px;
 }
 
-/* line 61, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 h3 {
   margin: 15px 0px 0px;
   letter-spacing: 3px;
@@ -79,7 +99,7 @@ h3 {
   font-style: oblique;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 p {
   margin: 20px 0px 15px;
   line-height: 1.5em;
@@ -87,4 +107,21 @@ p {
   letter-spacing: 1px;
   font-weight: 100;
   font-size: 1em;
+}
+
+/* line 95, ../sass/main.scss */
+li {
+  list-style: square inside;
+  margin: 15px 0px 15px 20px;
+}
+
+/* line 100, ../sass/main.scss */
+a {
+  color: #cbcfd2;
+  margin: 30px 0px 15px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
