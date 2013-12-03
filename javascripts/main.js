@@ -1,8 +1,10 @@
 
 
 
+
 $(document).ready(function() {
-  $('.magic-container').on('click', function() {
-    $('.content-bio').slideToggle("slow")
+  $('h1').on('click', function(event) {
+    var $h1 = $(event.currentTarget)
+    $h1.next().slideToggle("slow")
   });
 });
