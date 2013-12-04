@@ -5,4 +5,11 @@ $(document).ready(function() {
     $('.content').not($h1.next()).hide("slow")
     $h1.next().slideToggle("slow")
   });
+
+  $('.gallery-link').magnificPopup({
+    gallery: {
+      enabled: true
+    },
+    type: 'image'
+  });
 });
