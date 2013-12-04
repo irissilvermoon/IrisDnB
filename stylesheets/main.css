@@ -31,8 +31,12 @@ body {
   display: table;
   clear: both;
 }
+/* line 28, ../sass/main.scss */
+.magic-container:hover {
+  background: #242424;
+}
 
-/* line 29, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 #image-container {
   display: block;
   margin-left: auto;
@@ -40,7 +44,7 @@ body {
   width: 1000px;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 .social-container {
   width: 16.66667%;
   float: right;
@@ -50,31 +54,32 @@ body {
   margin-top: 7em;
   float: right;
 }
-/* line 42, ../sass/main.scss */
+/* line 46, ../sass/main.scss */
 .social-container #social-image {
   margin-top: 1em;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 .music-link {
   margin: 1em;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 56, ../sass/main.scss */
 .content {
   display: none;
 }
 
-/* line 56, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 h1 {
   margin: 0em;
   letter-spacing: 10px;
   text-align: left;
   font-weight: 100;
   font-size: 40px;
+  cursor: pointer;
 }
 
-/* line 64, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 h3 {
   margin: 15px 0px 0px;
   letter-spacing: 3px;
@@ -84,7 +89,7 @@ h3 {
   font-style: oblique;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 p {
   margin: 20px 0px 15px;
   line-height: 1.5em;
@@ -94,13 +99,13 @@ p {
   font-size: 1em;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 li {
   list-style: square inside;
   margin: 15px 0px 15px 20px;
 }
 
-/* line 87, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 a {
   color: #cbcfd2;
   margin: 30px 0px 15px;

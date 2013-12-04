@@ -24,6 +24,10 @@ $grid-padding: 1em; // and 1em padding on the grid container
   padding-left: 3em;
   max-width: 61em;
   background: #121112;
+
+  &:hover {
+    background: #242424;
+  }
 }
 
 #image-container {
@@ -59,6 +63,7 @@ h1 {
   text-align: left;
   font-weight: 100;
   font-size: 40px;
+  cursor: pointer;
 }
 
 h3 {
