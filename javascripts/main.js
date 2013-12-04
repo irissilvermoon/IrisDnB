@@ -6,10 +6,13 @@ $(document).ready(function() {
     $h1.next().slideToggle("slow")
   });
 
-  $('.gallery-link').magnificPopup({
-    gallery: {
-      enabled: true
-    },
-    type: 'image'
+  $('.gallery-images').each(function() {
+    $(this).magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+    });
   });
 });
