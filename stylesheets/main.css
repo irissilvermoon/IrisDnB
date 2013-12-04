@@ -129,7 +129,6 @@ p {
 /* line 113, ../sass/main.scss */
 li {
   list-style: square inside;
-  margin: 15px 0px 15px 20px;
 }
 
 /* line 118, ../sass/main.scss */
@@ -141,4 +140,16 @@ a {
   text-align: left;
   font-size: 18px;
   letter-spacing: 1px;
+}
+
+/* line 128, ../sass/main.scss */
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  bottom: 0px;
+  font-weight: 100;
+  font-size: 16px;
+  color: #858585;
+  padding-bottom: 20px;
 }
