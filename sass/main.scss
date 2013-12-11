@@ -40,6 +40,7 @@ $grid-padding: 1em; // and 1em padding on the grid container
 }
 
 #image-container {
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,9 +62,10 @@ $grid-padding: 1em; // and 1em padding on the grid container
   }
 }
 
-.social-container{
-  @include span-columns(1 omega, 5);
-  margin-top: 2em;
+.social-container {
+  position: absolute;
+  top: 20px;
+  right: -90px;
   float: right;
 
   #social-image {
@@ -122,7 +124,7 @@ a {
   font-weight: 100;
   text-align: left;
   font-size: 18px;
-  letter-spacing: 1px;
+  letter-spacing: 0.12em;
 }
 
 #footer {
