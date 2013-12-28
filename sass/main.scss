@@ -37,6 +37,17 @@ $grid-padding: 1em; // and 1em padding on the grid container
   &:hover {
     background: #242424;
   }
+  .logos {
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      display: inline;
+      vertical-align: middle;
+      margin: auto;
+      max-width: 80px;
+      max-height: 80px;
+    }
+  }
 }
 
 #image-container {

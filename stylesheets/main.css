@@ -40,8 +40,21 @@ body {
 .magic-container:hover {
   background: #242424;
 }
+/* line 40, ../sass/main.scss */
+.magic-container .logos {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 43, ../sass/main.scss */
+.magic-container .logos img {
+  display: inline;
+  vertical-align: middle;
+  margin: auto;
+  max-width: 80px;
+  max-height: 80px;
+}
 
-/* line 42, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 #image-container {
   position: relative;
   display: block;
@@ -50,7 +63,7 @@ body {
   width: 1000px;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .gallery-images {
   overflow: hidden;
   *zoom: 1;
@@ -58,21 +71,21 @@ body {
   float: left;
   padding: 5px;
 }
-/* line 58, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 .gallery-images img {
   max-width: 75px;
   max-height: 75px;
   border: 1px #cbcfd2 solid;
 }
 
-/* line 65, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .social-container {
   position: absolute;
   top: 20px;
   right: -90px;
   float: right;
 }
-/* line 71, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .social-container #social-image {
   background: #121112;
   max-width: 48px;
@@ -84,17 +97,17 @@ body {
   background: #242424;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .music-link {
   margin: 1em;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .content {
   display: none;
 }
 
-/* line 88, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 h1 {
   margin: 0em;
   letter-spacing: 10px;
@@ -104,7 +117,7 @@ h1 {
   cursor: pointer;
 }
 
-/* line 97, ../sass/main.scss */
+/* line 108, ../sass/main.scss */
 h3 {
   margin: 15px 0px 0px;
   letter-spacing: 3px;
@@ -114,7 +127,7 @@ h3 {
   font-style: oblique;
 }
 
-/* line 106, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 p {
   margin: 20px 0px 15px;
   line-height: 1.5em;
@@ -124,12 +137,12 @@ p {
   font-size: 1em;
 }
 
-/* line 115, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 li {
   list-style: square inside;
 }
 
-/* line 120, ../sass/main.scss */
+/* line 131, ../sass/main.scss */
 a {
   color: #cbcfd2;
   margin: 30px 0px 15px;
@@ -140,7 +153,7 @@ a {
   letter-spacing: 0.12em;
 }
 
-/* line 130, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 #footer {
   margin-left: auto;
   margin-right: auto;
